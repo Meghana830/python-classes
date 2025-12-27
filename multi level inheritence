@@ -1,0 +1,10 @@
+class Alpha:
+    def fun1(self):
+        print("Iam an alpha")
+class Beta:
+    def fun2(self):
+        print("I am Beta")
+class Gamma(Beta):
+    pass
+g=Gamma()
+print("dr gamma")
