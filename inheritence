@@ -1,0 +1,23 @@
+class customer:
+    def __init__(self,name,pnumber,address):
+        self.name=name
+        self.pnumber=pnumber
+        self.address=address
+    def order(self):
+        print("i am ordering food")
+    def cancel_order(self):
+        print("i am cancel order")
+    def payment(self):
+        print("i am cancel order")
+class goldcustomer(customer):
+    def __init__(self,name,pnumber,address,goldid):
+        super() __init__(name,pnumber,address)
+            self.goldid=goldid
+    def free_delivery(self):
+        print("i am ordering with no delivery cost")
+        c=Customer("meghana",45678,"rajampet")
+    g=gold Customer("laddu",12345,"kadapa",1)
+        print(g.name)
+        print(g.pnumber)
+        print(g.address)
+        print(g.goldid)
