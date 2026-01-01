@@ -1,0 +1,7 @@
+s="35678"
+res=0
+while s>0:
+    d=s%10
+    res=res*10+d
+    s=s//10
+print(res)
