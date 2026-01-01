@@ -1,0 +1,9 @@
+sum(kadanes algorithm)
+s=[-1,3,8,9,2,10,0,6]
+res=float(' inf')
+for i in range(len(s)):
+    count=0
+for j in range(i,len(s)):
+    if count+s[j]>res:
+        res=count+s[j]
+print(res)
