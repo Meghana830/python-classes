@@ -1,0 +1,10 @@
+print("secure environment is opened")
+try:
+    p=int(input("enter principle"))
+    t=int(input("enter principle"))
+    r=int(input("enter principle"))
+    si=(p*t*r)/100
+    print("simple interest",si)
+except:
+    print("hey user invalid input")
+    print("secure environment is closed")
