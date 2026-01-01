@@ -1,0 +1,6 @@
+def helper():
+    for choice in choices:
+        check valid(choice):
+            choose choice
+            helper()
+    revert choice
