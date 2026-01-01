@@ -1,0 +1,17 @@
+class Node:
+def __init__(self.data):
+    self.left=none
+    self.data=data
+    self.right=none
+class Tree:
+    def inorder(root):
+        if root!=None
+           Tree.inorder(root.left)
+           print(root.data,end=" ")
+           Tree.inorder(root.right)
+    root=Node(10)
+    root.left=node(20)
+    root.left.left=node(40)
+    root.right=none(30)
+    root.right.left=none(50)
+    Tree.inorder(root)
