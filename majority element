@@ -1,0 +1,7 @@
+s=[5,2,5,3,5,4]
+def majority_element(s):
+    for num in s:
+        if s.count(num)>(num//2):
+            return num
+        return-1
+print(majority_element(s))
