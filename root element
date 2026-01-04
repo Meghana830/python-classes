@@ -1,0 +1,10 @@
+def search_element(root,element):
+    if root==None:
+        return False
+    if root.data==element:
+        return True
+    elif element>root.data:
+        return Tree.search_element(root.right.element)
+    else:
+        return Tree.search_element(root.left.element)
+    Tree.search(root,105)
